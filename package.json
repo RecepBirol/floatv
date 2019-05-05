@@ -1,10 +1,10 @@
 {
-  "name": "floatvalue",
+  "name": "floatv",
   "version": "1.0.0",
   "description": "float value encode/decode two's complement and single precision floating point format(ieee754) ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",

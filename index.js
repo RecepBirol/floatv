@@ -11,7 +11,7 @@ const BIAS = 127;
  * @ return
  *   decoded float value
  */
-exports.binary32ToFloat = function (value) {
+exports.binary32ToFloat = function(value) {
   if (value === 0)
     return 0.00;
 
@@ -22,13 +22,14 @@ exports.binary32ToFloat = function (value) {
   return sign * ((1 + fraction) * Math.pow(2, power));
 };
 
+
 /* two's complement notation
  * @ value
  *   encoded float 2 byte float value
  * @ return
  *   decoded float value
  */
-exports.binary16ToFloat = function (value) {
+exports.binary16ToFloat = function(value) {
   if (value === 0)
     return 0.00;
 
