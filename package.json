@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RecepBirol/floatvalue.git"
+    "url": "git+https://github.com/RecepBirol/floatv.git"
   },
   "keywords": [
     "ieee754",
